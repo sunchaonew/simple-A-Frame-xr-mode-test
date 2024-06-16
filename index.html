@@ -3,14 +3,13 @@
     <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
   </head>
   <body>
+    Hello, WebXR!
     <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
       
-      <a-asset-item id="jungleModel" src="jungle.glb"></a-asset-item>
-      <a-entity gltf-model="#jungleModel" position="0 1.6 -3"></a-entity>
-      
-      <a-sky color="#ECECEC"></a-sky>
+      <a-asset-item id="robot" src="robot.glb"></a-asset-item>
+      <a-entity gltf-model="#robot" ></a-entity>
+    
+      <a-sky color="#000000"></a-sky>
     </a-scene>
   </body>
 </html>
